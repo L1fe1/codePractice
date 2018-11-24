@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/random/RandomStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/defaultmethods/FormulaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/ConverterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/LambdaRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/SortLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codePractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/localcache/FibonacciCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/localcache/FibonacciCache.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,27 +46,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="225" />
+          <entry key="java" value="247" />
           <entry key="resources" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="225" />
+          <entry key="JAVA" value="247" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="4806" />
+          <entry key="java" value="5105" />
           <entry key="resources" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4806" />
+          <entry key="JAVA" value="5105" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -62,19 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateCount.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +87,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/random/RandomStream.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="171">
+              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,40 +165,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/Streams.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateTimeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/datetimeformatter/DateFormatTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -163,21 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/multithread/countdownlatch/WorkerTestThread.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/countdownlatch/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/copyonwritearraylist/AddThread.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/copyonwritearraylist/Test05.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/producerconsumer/Test06.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/producerconsumer/Test07.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/producerconsumer/blockingqueue/Test07.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/philosophersdining/Test04.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/callable/Test07.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/forkjoin/Test08.java" />
-        <option value="$PROJECT_DIR$/src/array/FindLostDataInArray.java" />
-        <option value="$PROJECT_DIR$/src/test/dateandtime/DateCount.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/reflect/MethodInvokeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/Day.java" />
         <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo.java" />
         <option value="$PROJECT_DIR$/src/test/enumeration/Day2.java" />
         <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo3.java" />
@@ -214,6 +242,21 @@
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java" />
         <option value="$PROJECT_DIR$/src/base/java8/random/RandomStream.java" />
         <option value="$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/lambda/SortLambda.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/ConverterImpl.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/lambda/LambdaRange.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/defaultmethods/FormulaImpl.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/Streams.java" />
       </list>
     </option>
   </component>
@@ -223,7 +266,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -278,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543042769577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543064908014" />
     <property name="last_opened_file_path" value="D:/JavaJar/guava-27.0-jre.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,13 +347,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciCache">
-    <configuration name="CreateDateTimeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.localdatetime.CreateDateTimeObject" />
+  <component name="RunManager" selected="Application.Streams">
+    <configuration name="BiConsumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.BiConsumers" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.dateandtime.localdatetime.*" />
+          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +361,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.localcache.FibonacciCache" />
+    <configuration name="Callables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Callables" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.localcache.*" />
+          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.random.RandomStream" />
+    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Optionals" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.random.*" />
+          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,52 +387,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializablePredicateFilterTest.testLambdaDirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Runnables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Runnables" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.lambda.*" />
+          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="base.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="base.java8.lambda.SerializablePredicateFilterTest" />
-      <option name="METHOD_NAME" value="testLambdaDirect" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializablePredicateFilterTest.testLambdaParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.Streams" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.lambda.*" />
+          <option name="PATTERN" value="base.java8.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="base.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="base.java8.lambda.SerializablePredicateFilterTest" />
-      <option name="METHOD_NAME" value="testLambdaParameter" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaDirect" />
-      <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaParameter" />
-      <item itemvalue="Application.CreateDateTimeObject" />
-      <item itemvalue="Application.RandomStream" />
-      <item itemvalue="Application.FibonacciCache" />
+      <item itemvalue="Application.Optionals" />
+      <item itemvalue="Application.Runnables" />
+      <item itemvalue="Application.Callables" />
+      <item itemvalue="Application.BiConsumers" />
+      <item itemvalue="Application.Streams" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciCache" />
-        <item itemvalue="Application.RandomStream" />
-        <item itemvalue="Application.CreateDateTimeObject" />
-        <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaParameter" />
-        <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaDirect" />
+        <item itemvalue="Application.Streams" />
+        <item itemvalue="Application.BiConsumers" />
+        <item itemvalue="Application.Callables" />
+        <item itemvalue="Application.Runnables" />
+        <item itemvalue="Application.Optionals" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +468,7 @@
       <workItem from="1539862640710" duration="1067000" />
       <workItem from="1542443853937" duration="4241000" />
       <workItem from="1542546212133" duration="3303000" />
-      <workItem from="1543022066913" duration="6838000" />
+      <workItem from="1543022066913" duration="15771000" />
     </task>
     <servers />
   </component>
@@ -456,7 +493,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103805000" />
+    <option name="totallyTimeSpent" value="112738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +505,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
@@ -489,7 +526,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,6 +537,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -508,89 +575,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/EnumMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/EnumSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="1198" column="44" selection-start-line="1198" selection-start-column="44" selection-end-line="1198" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/multithread/producerconsumer/blockingqueue/Test07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/bitwise/BitVetory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java8/functionalprogramming/divideFirstTwo.java" />
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/EnumDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/TypeOfFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java8/lambda/Button.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java8/lambda/Component.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java8/lambda/Event.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java8/lambda/ComponentLambda.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java8/lambda/EventHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/base/java7/newswitch/NewSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/EachWithIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -651,22 +635,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/string/Reverser.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/SerializablePredicateFilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="83" column="68" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/boxingandunboxing/AutoUnboxingTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/ZonedDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -787,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/random/RandomStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -809,8 +760,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/SortLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/ConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/LambdaRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/defaultmethods/FormulaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/SerializablePredicateFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="83" column="68" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/Streams.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
