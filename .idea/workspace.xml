@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/defaultmethods/FormulaImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/ConverterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/LambdaRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/SortLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/MapAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/OptionalTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/ParallelStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsFooAndBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsSecureRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/stream/StreamsTest9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/localcache/FibonacciCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/localcache/FibonacciCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/stream/Streams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/stream/Streams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/java8/stream/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/java8/stream/Streams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,28 +44,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="247" />
+          <entry key="java" value="260" />
           <entry key="resources" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="247" />
+          <entry key="JAVA" value="260" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="17" />
-          <entry key="java" value="5105" />
+          <entry key="dummy" value="29" />
+          <entry key="java" value="5141" />
           <entry key="resources" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5105" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="JAVA" value="5141" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -75,76 +73,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Predicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Functions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="171">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/OptionalTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="798">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="661">
+              <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,22 +126,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsSecureRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="247">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsAverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsFooAndBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1007">
+              <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/Streams.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="395">
+              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,20 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/Day2.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo3.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/Food.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/TypeOfFood.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo2.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/Meal.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumDemo4.java" />
-        <option value="$PROJECT_DIR$/src/test/enumeration/EnumSetDemo.java" />
-        <option value="$PROJECT_DIR$/src/bitwise/BitVetory.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/dateandtime/YesterdayCurrent.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/functionalprogramming/liftingfunction.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/functionalprogramming/divideFirstTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java7/newswitch/NewSwitch.java" />
         <option value="$PROJECT_DIR$/src/test/java8/lambda/ComponentLambda.java" />
         <option value="$PROJECT_DIR$/src/test/java8/lambda/Button.java" />
@@ -252,11 +263,25 @@
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Suppliers.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Consumers.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Comparators.java" />
-        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java" />
         <option value="$PROJECT_DIR$/src/base/java8/stream/Streams.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/ParallelStreams.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/MapAPI.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsTest9.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/OptionalAPI.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/OptionalTest3.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsTest6.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsTest4.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsSecureRandom.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsRange.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsTest8.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsIntStreamAndBigDecimal.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsAverage.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsFooAndBar.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/stream/StreamsArrays.java" />
       </list>
     </option>
   </component>
@@ -266,7 +291,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -307,6 +332,14 @@
             </path>
             <path>
               <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -321,7 +354,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543064908014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543070869507" />
     <property name="last_opened_file_path" value="D:/JavaJar/guava-27.0-jre.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -347,13 +380,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Streams">
-    <configuration name="BiConsumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.BiConsumers" />
+  <component name="RunManager" selected="Application.StreamsArrays">
+    <configuration name="StreamsArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.StreamsArrays" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
+          <option name="PATTERN" value="base.java8.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,12 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Callables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Callables" />
+    <configuration name="StreamsAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.StreamsAverage" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
+          <option name="PATTERN" value="base.java8.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,12 +407,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Optionals" />
+    <configuration name="StreamsFooAndBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.StreamsFooAndBar" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
+          <option name="PATTERN" value="base.java8.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,12 +420,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runnables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.functionalprogramming.Runnables" />
+    <configuration name="StreamsRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.StreamsRange" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.functionalprogramming.*" />
+          <option name="PATTERN" value="base.java8.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,8 +433,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.stream.Streams" />
+    <configuration name="StreamsTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.stream.StreamsTest8" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
@@ -414,19 +447,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Optionals" />
-      <item itemvalue="Application.Runnables" />
-      <item itemvalue="Application.Callables" />
-      <item itemvalue="Application.BiConsumers" />
-      <item itemvalue="Application.Streams" />
+      <item itemvalue="Application.StreamsRange" />
+      <item itemvalue="Application.StreamsTest8" />
+      <item itemvalue="Application.StreamsAverage" />
+      <item itemvalue="Application.StreamsFooAndBar" />
+      <item itemvalue="Application.StreamsArrays" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Streams" />
-        <item itemvalue="Application.BiConsumers" />
-        <item itemvalue="Application.Callables" />
-        <item itemvalue="Application.Runnables" />
-        <item itemvalue="Application.Optionals" />
+        <item itemvalue="Application.StreamsArrays" />
+        <item itemvalue="Application.StreamsFooAndBar" />
+        <item itemvalue="Application.StreamsAverage" />
+        <item itemvalue="Application.StreamsTest8" />
+        <item itemvalue="Application.StreamsRange" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +501,7 @@
       <workItem from="1539862640710" duration="1067000" />
       <workItem from="1542443853937" duration="4241000" />
       <workItem from="1542546212133" duration="3303000" />
-      <workItem from="1543022066913" duration="15771000" />
+      <workItem from="1543022066913" duration="20850000" />
     </task>
     <servers />
   </component>
@@ -493,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112738000" />
+    <option name="totallyTimeSpent" value="117817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +538,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
@@ -575,64 +608,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/EachWithIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/InsertingElementsToSortedArray.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/ReorderArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/FindLostDataInArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/ReplaceSpace.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java7/typejudge/TypeJudge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/FindInTdArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/InsertingElementsToUnsortedArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/MinNumInSpinArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/PrintMatrixClockwise.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/array/InsertingElementsToSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/string/ReplaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/string/Reverser.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -897,24 +872,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="196">
+          <caret line="950" column="14" selection-start-line="950" selection-start-column="14" selection-end-line="950" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java">
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="1672">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -931,10 +899,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/Streams.java">
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Callables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="190">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Runnables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="129" column="48" lean-forward="true" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/MapAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/ParallelStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/Optionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/OptionalTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsSecureRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsTest8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsFooAndBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/stream/StreamsArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

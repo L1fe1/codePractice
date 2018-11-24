@@ -86,7 +86,7 @@ public class Streams {
                         .reduce((s1, s2) -> s1 + "#" + s2);
 
         reduced.ifPresent(System.out::println);
-        
+
         // "aaa1#aaa2#bbb1#bbb2#bbb3#ccc#ddd1#ddd2"
 
     }
