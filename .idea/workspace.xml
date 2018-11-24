@@ -2,138 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/random/RandomStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/AutoUnboxingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/ICTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/JdbcLobTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/MethodOverrideVsOverload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/OuterClass$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/OuterClass$StaticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/OuterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/Poker$Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/Poker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/PokerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/PreparedStmtExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/RegExpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/StringEqualTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/Candidate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/Gunman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/LazyStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/ListProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/ProxyTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/aop/ProxyTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/clone/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/clone/CloneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/clone/MyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/clone/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/NavigableMapApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/Student1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/Student2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/Test01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/Test02$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/collection/Test02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Clothes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Day.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Day2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo3$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/EnumSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Food$Appetizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Food$Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Food$Dessert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Food$MainCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal$Food$Appetizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal$Food$Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal$Food$Dessert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal$Food$MainCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal$Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/Meal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/TypeOfFood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/enumeration/sport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/exception/Annoyance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/exception/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/exception/Sneeze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/CountStringInFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/FileCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/ListFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/ListFileAndSpread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/ListFileInNIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/file/ListFileInNIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java7/newswitch/NewSwitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java7/typejudge/TypeJudge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/dateandtime/DateCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/dateandtime/DateFormatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/dateandtime/DateTimeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/dateandtime/YesterdayCurrent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/EachWithIndex$ItemWithIndexVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/EachWithIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/SerializablePredicateFilterTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/SerializablePredicateFilterTest$1LocalPredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/SerializablePredicateFilterTest$LengthPredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/SerializablePredicateFilterTest$SerializablePredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/lambda/SerializablePredicateFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/java8/resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/AddMoneyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/CharsetHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/DeadlockSample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/DeadlockSample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/DeadlockSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/EchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/EchoServer$ClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/EchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/EchoServerNIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/MyThreadLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/Test01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/atomic/IdGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/callable/Test07$CalcThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/callable/Test07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/copyonwritearraylist/AddThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/copyonwritearraylist/Test05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/countdownlatch/CountDownLatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/countdownlatch/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/countdownlatch/WorkerTestThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/forkjoin/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/forkjoin/Test08.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/philosophersdining/AppContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/philosophersdining/Philosopher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/philosophersdining/Test04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/blockingqueue/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/blockingqueue/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/blockingqueue/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/blockingqueue/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/blockingqueue/Test07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/waitandnotify/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/waitandnotify/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/waitandnotify/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/waitandnotify/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/multithread/producerconsumer/waitandnotify/Test06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/Child2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/ClassInitializationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/ClassInitializationTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/ClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/MethodInvokeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/NotUsed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/Parent2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/test/reflect/ReflectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/java8/dateandtime/DateCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/java8/dateandtime/DateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/datetimeformatter/DateFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/java8/dateandtime/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/java8/dateandtime/YesterdayCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codePractice.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,27 +33,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="223" />
-          <entry key="resources" value="1" />
+          <entry key="java" value="225" />
+          <entry key="resources" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="223" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="225" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="4677" />
+          <entry key="java" value="4806" />
           <entry key="resources" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4677" />
+          <entry key="JAVA" value="4806" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -198,11 +70,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="395">
+              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/random/RandomStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -267,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/multithread/atomic/IdGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/multithread/countdownlatch/Worker.java" />
         <option value="$PROJECT_DIR$/src/test/multithread/countdownlatch/WorkerTestThread.java" />
         <option value="$PROJECT_DIR$/src/test/multithread/countdownlatch/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/test/multithread/copyonwritearraylist/AddThread.java" />
@@ -318,6 +212,8 @@
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java" />
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/datetimeformatter/DateFormatTest.java" />
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/random/RandomStream.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java" />
       </list>
     </option>
   </component>
@@ -332,6 +228,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -365,23 +264,6 @@
             </path>
             <path>
               <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="dateandtime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="dateandtime" type="462c0819:PsiDirectoryNode" />
-              <item name="localdatetime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -396,8 +278,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543029229750" />
-    <property name="last_opened_file_path" value="D:/JavaJar/junit-4.12.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543042769577" />
+    <property name="last_opened_file_path" value="D:/JavaJar/guava-27.0-jre.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -422,13 +304,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateDateTimeObject">
+  <component name="RunManager" selected="Application.FibonacciCache">
     <configuration name="CreateDateTimeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.localdatetime.CreateDateTimeObject" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="base.java8.dateandtime.localdatetime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.localcache.FibonacciCache" />
+      <module name="codePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.java8.localcache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.random.RandomStream" />
+      <module name="codePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.java8.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -468,52 +376,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializablePredicateFilterTest.testLocalClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="base.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="base.java8.lambda.SerializablePredicateFilterTest" />
-      <option name="METHOD_NAME" value="testLocalClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializablePredicateFilterTest.testStaticInnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="base.java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="base.java8.lambda.SerializablePredicateFilterTest" />
-      <option name="METHOD_NAME" value="testStaticInnerClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SerializablePredicateFilterTest.testLocalClass" />
-      <item itemvalue="JUnit.SerializablePredicateFilterTest.testStaticInnerClass" />
       <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaDirect" />
       <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaParameter" />
       <item itemvalue="Application.CreateDateTimeObject" />
+      <item itemvalue="Application.RandomStream" />
+      <item itemvalue="Application.FibonacciCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciCache" />
+        <item itemvalue="Application.RandomStream" />
         <item itemvalue="Application.CreateDateTimeObject" />
         <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaParameter" />
         <item itemvalue="JUnit.SerializablePredicateFilterTest.testLambdaDirect" />
-        <item itemvalue="JUnit.SerializablePredicateFilterTest.testStaticInnerClass" />
-        <item itemvalue="JUnit.SerializablePredicateFilterTest.testLocalClass" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +431,7 @@
       <workItem from="1539862640710" duration="1067000" />
       <workItem from="1542443853937" duration="4241000" />
       <workItem from="1542546212133" duration="3303000" />
-      <workItem from="1543022066913" duration="3242000" />
+      <workItem from="1543022066913" duration="6838000" />
     </task>
     <servers />
   </component>
@@ -580,7 +456,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100209000" />
+    <option name="totallyTimeSpent" value="103805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,7 +481,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -632,20 +508,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/EnumDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/enumeration/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2014">
@@ -747,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/ReplaceSpace.java" />
-    <entry file="file://$PROJECT_DIR$/src/base/java8/resources">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -914,7 +769,7 @@
     <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -925,10 +780,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/resources">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="395">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/random/RandomStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
