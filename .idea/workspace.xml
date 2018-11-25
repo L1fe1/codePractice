@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/clock/Clocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDateTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dateandtime/timezones/TimeZones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/GraphDslSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/LambdaDslDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/NestedGraphDsl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/EdgeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/GraphBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/methodchain/EdgeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/methodchain/GraphBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedEdgeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedGraphBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedVertexBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/RuinLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,27 +46,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="276" />
+          <entry key="java" value="296" />
           <entry key="resources" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="276" />
+          <entry key="JAVA" value="296" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="java" value="5175" />
+          <entry key="java" value="5329" />
           <entry key="resources" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5175" />
+          <entry key="JAVA" value="5329" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -64,112 +75,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/clock/Clocks.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/GraphBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/timezones/TimeZones.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalTimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDateTimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/LambdaRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/BiConsumers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/annotations/Annotations.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/LambdaDslDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/SortLambda.java">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/EdgeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/SerializablePredicateFilterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="83" column="68" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
+            <state relative-caret-position="509">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/GraphDslSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedGraphBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedEdgeBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedVertexBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/NestedGraphDsl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,21 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java8/lambda/EventHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/lambda/EachWithIndex.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/array/InsertingElementsToSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/string/Reverser.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/string/ReplaceSpace.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/resources" />
-        <option value="$PROJECT_DIR$/src/test/java7/typejudge/TypeJudge.java" />
-        <option value="$PROJECT_DIR$/src/test/java8/lambda/SerializablePredicateFilterTest.java" />
-        <option value="$PROJECT_DIR$/src/base/polymorphic/MethodOverrideVsOverload.java" />
-        <option value="$PROJECT_DIR$/src/base/innerclass/OuterClass.java" />
-        <option value="$PROJECT_DIR$/src/base/innerclass/Poker.java" />
-        <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateTimeTest.java" />
-        <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java" />
-        <option value="$PROJECT_DIR$/src/base/java8/dateandtime/datetimeformatter/DateFormatTest.java" />
-        <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java" />
         <option value="$PROJECT_DIR$/src/base/java8/random/RandomStream.java" />
         <option value="$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java" />
         <option value="$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java" />
@@ -256,6 +243,21 @@
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalTimes.java" />
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDates.java" />
         <option value="$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/LocalDateTimes.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/annotations/Annotations.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/lambda/RuinLambdas.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/Edge.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/Graph.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/GraphBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/EdgeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/NestedGraphBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/GraphDslSample.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/NestedEdgeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/NestedVertexBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/NestedGraphDsl.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/GraphBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/EdgeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/base/java8/dsl/LambdaDslDemo.java" />
       </list>
     </option>
   </component>
@@ -306,6 +308,14 @@
             </path>
             <path>
               <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="dsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -320,7 +330,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543131634964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543137935491" />
     <property name="last_opened_file_path" value="D:/JavaJar/guava-27.0-jre.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -346,13 +356,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Annotations">
-    <configuration name="Annotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.annotations.Annotations" />
+  <component name="RunManager" selected="Application.LambdaDslDemo">
+    <configuration name="GraphDslSample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.dsl.GraphDslSample" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.annotations.*" />
+          <option name="PATTERN" value="base.java8.dsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDateTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.localdatetime.LocalDateTimes" />
+    <configuration name="GraphDslSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.dsl.methodchain.GraphDslSample" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.dateandtime.localdatetime.*" />
+          <option name="PATTERN" value="base.java8.dsl.methodchain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.localdatetime.LocalDates" />
+    <configuration name="LambdaDslDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.dsl.LambdaDslDemo" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.dateandtime.localdatetime.*" />
+          <option name="PATTERN" value="base.java8.dsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,12 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.localdatetime.LocalTimes" />
+    <configuration name="NestedGraphDsl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.dsl.NestedGraphDsl" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.dateandtime.localdatetime.*" />
+          <option name="PATTERN" value="base.java8.dsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeZones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.dateandtime.timezones.TimeZones" />
+    <configuration name="RuinLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.java8.lambda.RuinLambdas" />
       <module name="codePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.dateandtime.timezones.*" />
+          <option name="PATTERN" value="base.java8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,19 +423,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeZones" />
-      <item itemvalue="Application.LocalTimes" />
-      <item itemvalue="Application.LocalDates" />
-      <item itemvalue="Application.LocalDateTimes" />
-      <item itemvalue="Application.Annotations" />
+      <item itemvalue="Application.RuinLambdas" />
+      <item itemvalue="Application.GraphDslSample" />
+      <item itemvalue="Application.GraphDslSample (1)" />
+      <item itemvalue="Application.NestedGraphDsl" />
+      <item itemvalue="Application.LambdaDslDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Annotations" />
-        <item itemvalue="Application.LocalDateTimes" />
-        <item itemvalue="Application.LocalDates" />
-        <item itemvalue="Application.LocalTimes" />
-        <item itemvalue="Application.TimeZones" />
+        <item itemvalue="Application.LambdaDslDemo" />
+        <item itemvalue="Application.NestedGraphDsl" />
+        <item itemvalue="Application.GraphDslSample (1)" />
+        <item itemvalue="Application.GraphDslSample" />
+        <item itemvalue="Application.RuinLambdas" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +478,7 @@
       <workItem from="1542443853937" duration="4241000" />
       <workItem from="1542546212133" duration="3303000" />
       <workItem from="1543022066913" duration="21029000" />
-      <workItem from="1543129123819" duration="2375000" />
+      <workItem from="1543129123819" duration="6421000" />
     </task>
     <servers />
   </component>
@@ -493,7 +503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120371000" />
+    <option name="totallyTimeSpent" value="124417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,118 +585,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/equal/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateTimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/datetimeformatter/DateFormatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/ZonedDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="291" column="39" selection-start-line="291" selection-start-column="39" selection-end-line="291" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/YesterdayCurrent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/ZoneOffset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="201" column="29" selection-start-line="201" selection-start-column="29" selection-end-line="201" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/resources">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/random/RandomStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/localcache/FibonacciCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
-          <folding>
-            <element signature="e#3486#3487#0" expanded="true" />
-            <element signature="e#3544#3545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/CreateDateTimeObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/PersonCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/functionalprogramming/ConverterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/java8/defaultmethods/FormulaImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/dateandtime/localdatetime/DateCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -743,6 +641,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,6 +675,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,8 +902,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/java8/annotations/Annotations.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/lambda/RuinLambdas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedEdgeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedGraphBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedVertexBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/GraphDslSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/NestedGraphDsl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/methodchain/GraphBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/methodchain/EdgeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/EdgeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/GraphBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/java8/dsl/LambdaDslDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
