@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/GraphDslSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/LambdaDslDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/NestedGraphDsl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/EdgeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/lambdabuilder/GraphBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/methodchain/EdgeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/methodchain/GraphBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedEdgeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedGraphBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/dsl/nestedfunction/NestedVertexBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/java8/lambda/RuinLambdas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codePractice/base/java8/annotations/Annotations.class" afterDir="false" />
-    </list>
+    <list default="true" id="86a53846-edc1-402a-891e-fb6bb1cbdd4b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543137935491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543138517633" />
     <property name="last_opened_file_path" value="D:/JavaJar/guava-27.0-jre.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -478,7 +460,7 @@
       <workItem from="1542443853937" duration="4241000" />
       <workItem from="1542546212133" duration="3303000" />
       <workItem from="1543022066913" duration="21029000" />
-      <workItem from="1543129123819" duration="6421000" />
+      <workItem from="1543129123819" duration="6947000" />
     </task>
     <servers />
   </component>
@@ -503,7 +485,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124417000" />
+    <option name="totallyTimeSpent" value="124943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,8 +497,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
