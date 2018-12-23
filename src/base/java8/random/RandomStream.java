@@ -24,7 +24,7 @@ public class RandomStream {
                 .boxed()
                 .collect(Collectors.toList());
 
-        DoubleStream gaussianStream = Stream.generate(random::nextGaussian).mapToDouble(e -> e);
+        randomBetween0And99.stream().forEach(System.out::println);
 
     }
 }
